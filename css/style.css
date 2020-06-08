@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0px 150px;
+    justify-content: space-between;
+    /* max-width: 1140px; */
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    height: 111px; 
+    width: auto;
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.nav-flex{
+    float: right;
+    width: 100%;
+    display: flex !important;
+    flex-basis: auto;
+    float:right;
+    margin-right: 0px;
+    /* margin-left: 463px; */
+    /* margin-top:56px; */
+    align-items: center;
+}
+
+.nav-ul {
+    margin-left: auto!important;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    float: right !important;
+}
+
+.nav-first-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #412A1E;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+ul .active {
+    box-shadow: 0px 2px #E6B922;
+}
+
+.logo {
+    height: 96px;
+    width: auto;
+    margin: 15px 0px;
+}
+
+.section-one {
+    height: 222px;
+    background-image: url(../img/Mask\ Group\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(71, 55, 55, 0.281);
+    text-align: center;
+}
+
+.git{
+    color: #E6B922;
+    font-size: 18px;
+    padding-top: 52px;
+}
+
+.git-sec {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.align-verticle-center{
+    align-items: center;
+    height: 222px;
+}
+
+.bread-c {
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.arow {
+    margin: 0px 4px 0px 12px;
+}
+
+.style-git {
+    font-size: 40px;
+    font-weight: normal;
+    color: #412A1E;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.git-p {
+    text-align: center;
+}
+
+.map {
+    height: 460px;
+    width: auto;
+    margin: 30px 150px;
+    background-image: url("https://www.thestatesman.com/wp-content/uploads/2020/04/googl_ED.jpg");
+    z-index: -1;
+}
+
+.div-flex {
+    display: flex;
+}
+
+.form-div {
+    background-color: #412A1E;
+    height: 352px;
+    color: #fff;
+    width: 60%;
+}
+
+.form-h{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.minus-margin {
+    margin-top: -150px;
+    padding: 0px 75px;
+}
+
+.main-form{
+    width: 100%;
+    padding: 20px;
+}
+
+.details-div{
+    background-color: #F0EEEE;
+    color: #412A1E;
+    width: 40%;
+}
+
+.main-contact {
+    /* width: 40%; */
+    padding: 20px;
+}
